@@ -45,10 +45,9 @@
 
 /* Unified Card */
 .icon-uni{
-    fill: white;
-    /* -webkit-mask: url("feather fonts/check-square.svg") no-repeat center;
-    mask: url("feather fonts/check-square.svg") no-repeat center;
-    width: 25px; */
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    width: 40px;
 }
 .card-title > h6{
     font-weight: 400;
