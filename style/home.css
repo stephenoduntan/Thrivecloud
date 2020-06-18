@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.woff2') format('woff2'),
+         url('opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Header style */
+.background{
+    background: #000000 0% 0% no-repeat padding-box;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+}
+.background-image{
+    position: absolute;
+}
+.background-image img{
+    width: 100%;
+    height: 75vh;
+}
+.blur{
+    background: rgba(0, 0, 0, 0.875);
+    backdrop-filter: blur(0px);
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+}
+.nav-link{
+    position: relative;
+    transition-duration: 0.5s;
+}
+.nav-link:hover,
+.nav-link:focus-within{
+    border-bottom: 3px solid royalblue;
+    transition: 0.5s ease-in;
+}
+.nav-link:focus-within a{
+    outline: none;
+}
+.dropdown:hover .dropdown-menu, .dropdown:focus-within .dropdown-menu{
+    display: block;
+}
+
+/* Unified Card */
+.icon-uni{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    width: 40px;
+}
+.card-title > h6{
+    font-weight: 400;
+}
+.card-body{
+    font-weight: 100;
+}
+
+/* Module Cards */
+.img-overlay{
+    opacity: 0;
+    transition: 0.5s;
+}
+.card-header .fas{
+    font-size: 35px;
+}
+.card:hover .img-overlay, .card:focus-within .img-overlay{
+    opacity: 0.875;
+}
+.icon-mod{
+    width: 40px;
+}
+
+/* Users */
+.subhead{
+    color: #889191;";
+}
+.car-btn{
+    width: 12px;
+    height: 12px;
+    margin: 0px 3px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.arrows{
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin: 0px 70px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.arrows > img{
+    -webkit-filter: invert(29%) sepia(79%) saturate(4349%) hue-rotate(205deg) brightness(112%) contrast(103%);
+    filter: invert(29%) sepia(79%) saturate(4349%) hue-rotate(205deg) brightness(112%) contrast(103%);
+    width: 50px;
+}
+
+/* Ads Div */
+.ads-bg{
+    background: linear-gradient(0deg, rgba(116,162,251, 0.663), rgba(61,128,253, 0.706)), url("christina-wocintechchat-com-3sY92eKV6-Y-unsplash.png") center no-repeat;
+    width: 100%;
+    height: 438px;
+}
+.ads-image{
+    width: 590px;
+    height: 450px;
+    border: 25px solid rgba(55, 239, 125, .627);
+    border-left: none;
+    border-bottom: none;
+    border-radius: 300px/225px;
+    overflow: hidden;
+    transform: rotate(-13deg);
+}
+.ads-image > img{
+    height: 500px;
+    transform: scale(1.1);
+}
+
+/* News and Resources */
+.news-bg{
+    background: url("section-background-benefits.png") repeat center;
+    padding-bottom: 30px;
+}
+.news-card{
+    width: 288px;
+}
+.news-card > p{
+    font-weight: 200;
+}
+.news-card > img{
+    height: 250px;
+}
+
+/* Footer */
+.icon-foot{
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    margin-top: -30px;
+    position: relative;
+    padding: 7px;
+}
+.icon-social{
+    filter: invert(1);
+    width: 25px;
+    padding: 0px 5px;
+}
+footer > .nav p{
+    font-size: 11px;
+}
