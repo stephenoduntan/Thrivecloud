@@ -1,0 +1,8 @@
+.ind-background{
+    background: linear-gradient(0deg, rgba(0,0,0,0.765), rgba(0,0,0,0.765)), url("how-to-determine-your-salary-business-owner.png") no-repeat center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.buttons button{
+    font-size: 11px;
+}

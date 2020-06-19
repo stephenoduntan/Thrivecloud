@@ -1,0 +1,4 @@
+.acct-background{
+    background: linear-gradient(0deg, rgba(0,0,0,0.675), rgba(0,0,0,0.675)), url("products-banner.png") no-repeat;
+    padding-bottom: 50px;
+}

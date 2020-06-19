@@ -1,0 +1,5 @@
+.solution-background{
+    background: linear-gradient(0deg, rgba(0,0,0,0.765), rgba(0,0,0,0.765)), url("photo-banner.png") no-repeat center;
+    background-size: cover;
+    padding-bottom: 50px;
+}

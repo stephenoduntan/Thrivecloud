@@ -5,6 +5,10 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+    font-family: 'Open sans', sans-serif !important;
+}
+
 /* Header style */
 .background{
     background: #000000 0% 0% no-repeat padding-box;
@@ -117,6 +121,11 @@
     height: 500px;
     transform: scale(1.1);
 }
+.ad-bg{
+    background: linear-gradient(0deg, rgba(0,0,0, 0.763), rgba(0,0,0, 0.763)), url("christina-wocintechchat-com-3sY92eKV6-Y-unsplash.png") no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
 
 /* News and Resources */
 .news-bg{
@@ -147,6 +156,6 @@
     width: 25px;
     padding: 0px 5px;
 }
-footer > .nav p{
-    font-size: 11px;
+footer .nav-item{
+    font-size: 14px;
 }
