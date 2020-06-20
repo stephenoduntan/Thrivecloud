@@ -6,3 +6,6 @@
 .buttons button{
     font-size: 11px;
 }
+.list > .text p{
+    margin-bottom: 2px;
+}
