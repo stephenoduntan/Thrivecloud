@@ -3,6 +3,31 @@
     background-size: cover;
     padding-bottom: 50px;
 }
+@media (min-width: 1980px){
+    .ad-bg .container{
+        padding: 5% 0% !important;
+    }
+}
+@media (max-width: 425px){
+    .evolve .row .evolve-card{
+        display: grid;
+        justify-items: center;
+        padding: 0px 20px;
+    }
+    .evolve .row .evolve-card .card{
+        margin-right: 0px !important;
+        margin-bottom: 5px;
+    }
+    .features .row .f-card{
+        display: grid;
+        justify-items: center;
+        padding: 0px 20px;
+        padding-bottom: 0px !important;
+    }
+    .features .row .f-card .card{
+        margin-bottom: 5px;
+    }
+}
 .buttons button{
     font-size: 11px;
 }

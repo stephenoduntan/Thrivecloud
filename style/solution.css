@@ -3,3 +3,23 @@
     background-size: cover;
     padding-bottom: 50px;
 }
+@media (max-width:425px){
+    .small article .text{
+        width: 100% !important;
+    }
+    .solve .row{
+        display: grid !important;
+    }
+    .modern .row{
+        display: grid !important;
+    }
+    .modern .row .w-75{
+        width: 100% !important;
+        order: 2;
+    }
+    .modern .row .bg-white{
+        order: 1;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+}

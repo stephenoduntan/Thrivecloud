@@ -1,4 +1,56 @@
 .acct-background{
     background: linear-gradient(0deg, rgba(0,0,0,0.675), rgba(0,0,0,0.675)), url("products-banner.png") no-repeat;
+    background-size: cover;
     padding-bottom: 50px;
+}
+@media (max-width: 768px){
+    .real-time article .row .text{
+        text-align: justify;
+    }
+    .real-time article .row .img{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 425px){
+    .manage .h3{
+        font-size: 27px !important;
+    }
+    .manage .text{
+        text-align: justify;
+        font-size: 16px !important;
+        width: 100% !important;
+    }
+    .real-time .row{
+        display: grid !important;
+    }
+    .real-time .text .img{
+        order: 1;
+    }
+    .real-time .text .img img{
+        width: 370px !important;
+    }
+    .real-time .text .desc{
+        order: 2;
+        max-width: 100% !important;
+    }
+    .real-time .text .desc .text{
+        width: 100% !important;
+    }
+    .ad-bg .container{
+        padding: 25% 0% !important;
+    }
+    .ad-bg .container .h2 p{
+        margin: 0px !important;
+    }
+}
+@media (max-width: 375px){
+    .real-time .text .img img {
+        width: 330px !important;
+    }
+}
+@media (max-width: 320px){
+    .real-time .text .img img {
+        width: 270px !important;
+    }
 }

@@ -1,0 +1,8 @@
+@media (max-width: 425px){
+    .simple .container article .pricing{
+        display: grid;
+    }
+    .faq .text .w-50{
+        width: 100% !important;
+    }
+}
