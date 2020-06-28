@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Open sans', sans-serif !important;
+    display: grid;
 }
 /* Media-query */
 @media (max-width: 1024px) {
@@ -39,6 +40,9 @@ body{
     .manuc .bg-primary .float-right {
         padding: 0px 10px !important;
         margin: 0px !important;
+    }
+    .ads .ads-bg .ads-image{
+        border-radius: 275px/250px !important;
     }
 }
 @media (max-width: 768px){
@@ -344,9 +348,6 @@ body{
 }
 
 
-.d-grid{
-    display: grid;
-}
 
 /* Header style */
 .background{
@@ -356,22 +357,7 @@ body{
     height: 75vh;
     overflow: hidden;
 }
-/* .background-image{
-    position: absolute;
-}
-.background-image img{
-    width: 100%;
-    height: 75vh;
-}
-.blur{
-    background: rgba(0, 0, 0, 0.875);
-    backdrop-filter: blur(0px);
-    height: 75vh;
-    width: 100%;
-    position: absolute;
-} */
 .nav-link{
-    /* position: relative; */
     transition-duration: 0.5s;
 }
 .nav-link:hover,
@@ -416,7 +402,7 @@ body{
 
 /* Users */
 .subhead{
-    color: #889191;";
+    color: #889191;
 }
 .car-btn{
     width: 12px;
