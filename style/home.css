@@ -11,11 +11,11 @@ body{
 }
 /* Media-query */
 @media (max-width: 1024px) {
-    .background .text-center{
+    /* .background .text-center{
         margin-top: 0px !important;
-    }
+    } */
     .background .text-center .h1{
-        margin: 0px !important;
+        /* margin: 0px !important; */
         font-size: 38px;
     }
     .background .text-center .h1 p{
@@ -31,9 +31,9 @@ body{
         width: 115px !important;
         height: 30px !important;
     }
-    .unified .bg-white {
+    /* .unified .bg-white {
         margin-top: -50px !important;
-    }
+    } */
     .manuc .bg-primary .col{
         margin-right: 0px !important;
     }
@@ -42,16 +42,30 @@ body{
         margin: 0px !important;
     }
     .ads .ads-bg .ads-image{
-        border-radius: 275px/250px !important;
+        position: absolute !important;
+        left: 100px;
     }
+    .ads .ads-bg .text-left{
+        text-align: center !important;
+        padding: 25% 0%;
+        position: relative;
+        left: 200px;
+    }
+    .ads .ads-bg .text-left .h2{
+        font-size: 41px;
+        margin-bottom: 15px !important;
+    }
+    /* .ads .ads-bg .ads-image{
+        border-radius: 275px/250px !important;
+    } */
 }
 @media (max-width: 768px){
     .container-fluid{
         max-width: 768px !important;
     }
-    header  .container{
+    /* header  .container{
         margin-top: 0px !important;
-    } 
+    }  */
     header article .h1{
         font-size: 35px;
     }
@@ -61,16 +75,16 @@ body{
     header article .small p{
         margin-bottom: 5px;
     }
-    .unified article{
+    /* .unified article{
         margin-top: -20px !important;
-    }
+    } */
     .unified article .text-center p{
         margin: 0px !important;
         padding: 0px !important;
     }
-    .unified article .card-deck{
+    /* .unified article .row{
         padding: 15px !important;
-    }
+    } */
     .unified article .card{
         padding: 0px !important;
         padding-bottom: 10px !important;
@@ -81,8 +95,8 @@ body{
     .unified article .card .card-body{
         font-size: 14px;
     }
-    .module article .card-deck .mt-5{
-        margin-top: 3px !important;
+    .module article .row{
+        justify-content: center;
     }
     .module article .explore{
         padding-top: 0px !important;
@@ -161,16 +175,11 @@ body{
         padding: 50% 0% !important;
     }
     .ads .ads-bg .ads-image{
-        position: absolute !important;
+        left: 0px !important;
     }
     .ads .ads-bg .text-left{
         text-align: center !important;
-        padding: 25% 0%;
-        position: relative;
-    }
-    .ads .ads-bg .text-left .h2{
-        font-size: 40px;
-        margin-bottom: 15px !important;
+        left: 0px !important;
     }
     .news article{
         padding-top: 25px !important;
@@ -186,10 +195,10 @@ body{
     .container-fluid{
         width: 100vw !important;
     }
-    header  .container{
+    /* header  .container{
         margin-top: 0px !important;
         padding-top: 0px !important;
-    } 
+    }  */
     header .background{
         overflow: scroll !important;
     }
@@ -210,9 +219,9 @@ body{
         height: 35px !important;
         font-size: 11px !important;
     }
-    .unified article{
+    /* .unified article{
         margin-top: -20px !important;
-    }
+    } */
     .unified article .text-center .h3{
         font-size: 21px;
         padding-left: 5px !important;
